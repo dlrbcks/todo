@@ -1,0 +1,24 @@
+/* 전체 화면 가운데 정렬 */
+body {
+  display: flex;
+  justify-content: center; /* 가로 가운데 */
+  align-items: center;     /* 세로 가운데 */
+  min-height: 100vh;       /* 화면 전체 높이 사용 */
+  margin: 0;
+}
+
+/* Todo 리스트 전체 영역 */
+h1 {
+  text-align: center;
+}
+
+.todo-item {
+  width: 300px;
+  height: 50px;
+  border: 1px solid lightblue;
+  margin: 10px auto;       /* 아이템 자체도 가운데 정렬 */
+  display: flex;
+  align-items: center;     /* 세로 정렬 */
+  padding: 0 10px;
+  border-radius: 8px;
+}
