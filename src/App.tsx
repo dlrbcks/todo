@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <div className="flex justify-center items-center h-full bg-gray-100">
+    <div className="flex justify-center items-center min-h-screen w-full bg-gray-100">
       <div className="flex flex-col items-center gap-4 bg-white p-6 rounded-2xl shadow-lg w-96">
         <div className="flex w-full gap-2">
           <input
